@@ -1,7 +1,10 @@
 import {Button, Card, Col} from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 
 const Service = (props) => {
+    const element = <FontAwesomeIcon icon={faShoppingCart} />
     const {title,description,price,img} = props.service;
     return (
         <Col>
@@ -12,7 +15,7 @@ const Service = (props) => {
                     <Card.Title>{title}</Card.Title>
                     <Card.Text>{description}</Card.Text>
                     <Card.Text>Price: ${price}</Card.Text>
-                    <Button variant="primary">Purchase</Button>
+                    <Button variant="info">{element} Purchase</Button>
                 </Card.Body>
             </Card>
         </Card>

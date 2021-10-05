@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react';
-import { Card, Row } from 'react-bootstrap';
+import {  Row } from 'react-bootstrap';
 import Service from './../Service/Service';
 
 const Services = () => {
@@ -11,9 +11,9 @@ const Services = () => {
     },[]);
 
     return (
-        <div>
-            <h1>I have {services.length}</h1>
-            <Row xs={1} md={4} className="g-1">
+        <div className="m-5">
+            <h1 className= "text-primary">Our Courses</h1>
+            <Row xs={1} md={4} className="g-1 gy-4">
             {
                 services.map(service => 
                     <Service    
