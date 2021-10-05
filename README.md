@@ -1,10 +1,12 @@
 # Our Language School
 
-I have used react bootstrap [Live link](https://language-school-08e0f7.netlify.app/).
+I have used react bootstrap for this project [Our School](https://language-school-08e0f7.netlify.app/).
 
-## Available Scripts
+## This site is about Language resources
+## You can learn different Language
+## Get idea about our platform
 
-In the project directory, you can run:
+
 
 ### `npm start`
 
