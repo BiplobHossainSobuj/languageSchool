@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     const element = <FontAwesomeIcon icon={faSchool} />
     return (
-        <Navbar bg="primary" variant="dark" className="py-3 justify-content-center" activeKey="/home">
+        <Navbar bg="primary" variant="dark" className="py-3 justify-content-center">
             <h1 className="text-white">{element} Language School</h1>
                 <Nav className="">
                     <Container className="">
