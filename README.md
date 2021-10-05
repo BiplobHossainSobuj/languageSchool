@@ -1,6 +1,6 @@
 # Our Language School
 
-I have used react bootstrap for this project [Our School](https://language-school-08e0f7.netlify.app/).
+I have used react bootstrap for this project. Have a look..[Our School](https://language-school-08e0f7.netlify.app/).
 
 ## This site is about Language resources
 ## You can learn different Language
