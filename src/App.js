@@ -10,33 +10,31 @@ import Blog from './Component/Blog/Blog';
 import NotAvailable from './Component/NotAvailable/NotAvailable';
 import Footer from './Component/Footer/Footer';
 
-
-
 function App() {
   return (
     <div>
        <BrowserRouter>
         <Header></Header>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/services">
-            <Services></Services>
-          </Route>
-          <Route path="/blog">
-            <Blog></Blog>
-          </Route>
-          <Route path="/about">
-            <About></About>
-          </Route>
-          <Route path="*">
-            <NotAvailable></NotAvailable>
-          </Route>
-        </Switch>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <Route path="/services">
+              <Services></Services>
+            </Route>
+            <Route path="/blog">
+              <Blog></Blog>
+            </Route>
+            <Route path="/about">
+              <About></About>
+            </Route>
+            <Route path="*">
+              <NotAvailable></NotAvailable>
+            </Route>
+          </Switch>
        </BrowserRouter>
        <Footer></Footer>
     </div>

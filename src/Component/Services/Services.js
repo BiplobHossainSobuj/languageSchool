@@ -14,7 +14,7 @@ const Services = () => {
         <div className="m-5">
             <h1 className= "text-primary">Our Courses</h1>
             <Row xs={1} md={4} className="g-1 gy-4">
-            {
+            {   //maping the services and return a single service
                 services.map(service => 
                     <Service    
                 key = {service.key}

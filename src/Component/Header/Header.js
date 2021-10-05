@@ -17,8 +17,7 @@ const Header = () => {
                         <Link to="/about" className="m-5 text-white text-decoration-none fs-3">About Us</Link>
                     </Container>
                 </Nav>
-        </Navbar>
-        
+        </Navbar>  
     );
 };
 
