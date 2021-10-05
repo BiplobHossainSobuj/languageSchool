@@ -1,6 +1,6 @@
 # Our Language School
 
-This project was bootstrapped with [Live link](https://github.com/facebook/create-react-app).
+I have used react bootstrap [Live link](https://language-school-08e0f7.netlify.app/).
 
 ## Available Scripts
 
