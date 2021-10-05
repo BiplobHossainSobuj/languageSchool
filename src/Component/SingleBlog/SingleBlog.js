@@ -2,7 +2,6 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 
 const SingleBlog = (props) => {
-    console.log(props.blog)
     const{key,name,body} = props.blog;
     return (
         <Card  className= "m-5">
